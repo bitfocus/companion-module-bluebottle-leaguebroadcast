@@ -1,0 +1,34 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "bluebottle-leaguebroadcast",
+	"name": "bluebottle-leaguebroadcast",
+	"shortname": "leaguebroadcast",
+	"description": "Control LeagueBroadcast League of Legends broadcast overlays",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/BlueBottleGG/companion-module-bluebottle-leaguebroadcast.git",
+	"bugs": "https://github.com/BlueBottleGG/companion-module-bluebottle-leaguebroadcast/issues",
+	"maintainers": [
+		{
+			"name": "Lars Eble",
+			"email": "lars@bluebottle.gg"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": ["league-broadcast"],
+	"manufacturer": "BlueBottleGG",
+	"products": ["LeagueBroadcast"],
+	"keywords": ["league of legends", "esports", "broadcast", "overlay", "graphics"],
+	"bonjourQueries": {
+		"bonjourHost": {
+			"type": "leaguebroadcast",
+			"protocol": "tcp"
+		}
+	}
+}
