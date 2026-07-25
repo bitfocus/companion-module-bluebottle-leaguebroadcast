@@ -8,7 +8,7 @@ export default defineConfig({
 			provider: 'v8',
 			reporter: ['text', 'json-summary'],
 			reportsDirectory: 'coverage',
-			include: ['src/config.ts', 'src/state.ts', 'src/upgrades.ts', 'src/client/commands.ts', 'src/client/rpc.ts'],
+			include: ['src/config.ts', 'src/state.ts', 'src/client/commands.ts', 'src/client/rpc.ts'],
 			thresholds: {
 				statements: 80,
 				branches: 75,

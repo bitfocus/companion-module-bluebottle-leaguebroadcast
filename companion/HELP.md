@@ -98,9 +98,7 @@ All feedbacks are boolean and can restyle the button when true.
 ## Variables
 
 The examples below use the default connection label `bluebottle-leaguebroadcast`. If you rename
-the connection in Companion, use that label as the variable prefix instead. Connections migrated
-from the legacy `league-broadcast` module id keep working through the manifest's `legacyIds`
-mapping and may retain their existing connection label.
+the connection in Companion, use that label as the variable prefix instead.
 
 | Variable                                           | Contents                                                                                                               |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
