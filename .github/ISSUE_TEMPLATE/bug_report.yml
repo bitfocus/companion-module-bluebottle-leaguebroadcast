@@ -6,10 +6,10 @@ title: '[BUG]'
 body:
   - type: checkboxes
     attributes:
-      label: Make sure you have updated the module, Companion, and LeagueBroadcast
-      description: Older versions may not support the current authenticated RPC API.
+      label: Make sure you have updated to the latest version of the module
+      description: This may be a beta version of the module, or may require you to update your companion.
       options:
-        - label: I have checked this with current versions of all three
+        - label: I have checked this on the latest version of the module
           required: true
   - type: checkboxes
     attributes:
@@ -23,7 +23,7 @@ body:
       label: Describe the bug
       description: A clear and concise description of what the bug is. Screenshots are always helpful to understand the problem.
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Steps To Reproduce
@@ -34,13 +34,13 @@ body:
         3. Scroll down to '....'
         4. See error
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Expected Behavior
       description: A concise description of what you expected to happen.
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Environment (please complete the following information)
