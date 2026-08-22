@@ -37,7 +37,7 @@
 		"@companion-module/tools": "^2.6.1",
 		"@types/node": "^22.19.3",
 		"@types/ws": "^8.18.1",
-		"@vitest/coverage-v8": "4.1.10",
+		"@vitest/coverage-v8": "4.1.11",
 		"eslint": "^10.8.1",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.2.7",
